@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   content-wind:
-    specifier: ^0.6.4
-    version: 0.6.4(postcss@8.4.23)(rollup@3.21.5)(vue@3.2.47)(webpack@5.82.0)
+    specifier: ^0.6.5
+    version: 0.6.5(postcss@8.4.23)(rollup@3.21.5)(vue@3.2.47)(webpack@5.82.0)
   nuxt:
     specifier: ^3.4.3
     version: 3.4.3(@types/node@20.1.1)(rollup@3.21.5)(typescript@5.0.4)
@@ -988,8 +988,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxthq/studio@0.11.0(rollup@3.21.5):
-    resolution: {integrity: sha512-9cIJSguUWvtiFs6/dlZB6f/xQ588HGqWXzRU9logl5THig6X5lYwV4hfleaY4tYoitve3j5OUCXzfFhUQqCxGA==}
+  /@nuxthq/studio@0.12.1(rollup@3.21.5):
+    resolution: {integrity: sha512-g9GV8JkQqqYLtP+gsNtPr4fh49jc3eIdAB2ZfiudZKkFdW0BxtT/xPx8RjNYQwyInKssDDB26zzYrRYH9hhHCQ==}
     dependencies:
       '@nuxt/kit': 3.4.3(rollup@3.21.5)
       defu: 6.1.2
@@ -2353,14 +2353,14 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /content-wind@0.6.4(postcss@8.4.23)(rollup@3.21.5)(vue@3.2.47)(webpack@5.82.0):
-    resolution: {integrity: sha512-p3XheSRrXWm4IkEOvNQ/HmedwT5zsV5S9MgUiwAhBTXeoSfSIZhrW0YX2pI3hZPDT0MOzrDBw/k9NPPEOh8luQ==}
+  /content-wind@0.6.5(postcss@8.4.23)(rollup@3.21.5)(vue@3.2.47)(webpack@5.82.0):
+    resolution: {integrity: sha512-iNLafDWJkeYERt3teaNWgfvWvosyf5rbsjD2X0knej47IsZbQ/MhG5sVfUE1VT7uKDB+Nn9d2tem7hOZVTH25w==}
     dependencies:
       '@nuxt-themes/elements': 0.9.4(postcss@8.4.23)(rollup@3.21.5)(vue@3.2.47)
       '@nuxt-themes/tokens': 1.9.1(postcss@8.4.23)(rollup@3.21.5)(vue@3.2.47)
       '@nuxt-themes/typography': 0.11.0(postcss@8.4.23)(rollup@3.21.5)(vue@3.2.47)
       '@nuxt/content': 2.6.0(rollup@3.21.5)
-      '@nuxthq/studio': 0.11.0(rollup@3.21.5)
+      '@nuxthq/studio': 0.12.1(rollup@3.21.5)
       '@nuxtjs/color-mode': 3.2.0(rollup@3.21.5)
       '@nuxtjs/tailwindcss': 6.6.8(rollup@3.21.5)(webpack@5.82.0)
       nuxt-config-schema: 0.4.6(rollup@3.21.5)
